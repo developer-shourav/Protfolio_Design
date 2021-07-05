@@ -116,3 +116,53 @@ h1{
 /* =====================================================================================
                           Mid section css End
 =========================================================================================*/
+
+
+
+
+/* =====================================================================================
+                         Experiences section css START
+=========================================================================================*/
+#ExheadLine{margin-left: 30px;}
+.myExperiences{
+    display: flex;
+    text-align: justify;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+.myExperiences h1{
+   font-size: 33px;
+}
+
+.experienceBox{
+    width: 40%;
+    margin:0% 5%;
+    margin-bottom: 200px;
+    padding:30px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 8px;
+
+}
+#exBoxTwo{
+    border-left: 4px solid;
+    border-image:linear-gradient(rgb(255, 0, 0), #00828b);
+    border-image-slice: 1;
+}
+#exBoxOne{
+    border-left: 4px solid;
+    border-image: linear-gradient(#ff0000, #00008b);
+    border-image-slice: 1;
+}
+
+/* =====================================================================================
+                         Experiences section css End
+=========================================================================================*/
+
+
+
+/* -----------------------------------footer css----------------------------------------------*/
+footer{
+    text-align: center;
+    color: gray;
+    margin-bottom: 20px;
+}
