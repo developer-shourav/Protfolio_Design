@@ -1,10 +1,17 @@
+/* =====================================================================================
+                           Common Style
+=========================================================================================*/
+
 body{
      margin: 0;
     font-family: 'Oswald',
     sans-serif;
-    text-decoration: none;
+    text-decoration:none;
     
 }
+/* =====================================================================================
+                         Top section css START
+=========================================================================================*/
 .colorOrange{color:orange}
 h1{
     font-size:50px;
@@ -34,6 +41,7 @@ h1{
 }
 .button{
     margin-top: 30px;
+  
 }
 .hireMe{
     font-weight: 700;
@@ -43,7 +51,9 @@ h1{
     border-radius: 5px;
     color: #fff;
     
+    
 }
+/* -----------hover&active style of HIRE ME button------------ */
 .hireMe:hover {
     background: linear-gradient(#ff0000,#ff8b76dc);
 }
@@ -52,3 +62,57 @@ h1{
     border-radius: 5px;
     background: #378dff52;
 }
+/* =====================================================================================
+                               Top section css END
+=========================================================================================*/
+
+/* =====================================================================================
+                          Mid section css START
+=========================================================================================*/
+.mid_section{
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    text-align: justify;
+}
+.mySecondPhoto{
+    width: 50%;
+    padding:5%;
+    
+}
+.mySecondPhoto img{
+    width: 95%;
+   
+}
+.dreamBig{
+    width: 50%;
+    padding:5%;
+}
+
+.Download_resume {
+    font-weight: 700;
+    text-decoration: none;
+    padding: 10px 45px;
+    background: linear-gradient(#ff0000, #ff8b76dc);
+    border-radius: 5px;
+    color: #fff;
+    
+
+}
+
+/* -----------hover&active style of HIRE ME button------------ */
+.Download_resume:hover {
+     background: linear-gradient(#ce03ce, darkblue);
+}
+
+.Download_resume:active {
+    border: 2px solid #f0f0f0;
+    border-radius: 5px;
+    background: #378dff52;
+}
+
+
+/* =====================================================================================
+                          Mid section css End
+=========================================================================================*/
