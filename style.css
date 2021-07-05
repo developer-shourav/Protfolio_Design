@@ -1,10 +1,54 @@
-*{
-    margin: 0;
-    padding: 0;
+body{
+     margin: 0;
     font-family: 'Oswald',
     sans-serif;
+    text-decoration: none;
     
 }
+.colorOrange{color:orange}
 h1{
-    font-size: 45px;
+    font-size:50px;
+}
+.top_section{
+    display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    text-align: justify;
+}
+.aboutMe{
+    width: 50%;
+    padding:5%;
+}
+.myFirstPc{
+    width: 50%;
+    
+}
+.myFirstPc img{
+    width: 90%;
+    
+}
+.specilist{
+    color: #ff5943;
+    margin:0;
+    
+}
+.button{
+    margin-top: 30px;
+}
+.hireMe{
+    font-weight: 700;
+    text-decoration: none;
+    padding: 10px 45px;
+    background:linear-gradient(#ce03ce,darkblue);
+    border-radius: 5px;
+    color: #fff;
+    
+}
+.hireMe:hover {
+    background: linear-gradient(#ff0000,#ff8b76dc);
+}
+.hireMe:active{
+    border:2px solid #f0f0f0;
+    border-radius: 5px;
+    background: #378dff52;
 }
